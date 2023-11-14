@@ -3,7 +3,7 @@
 
 
 ## Создать новый проект: *File - New - Project - Empty*
-![](C:\Projects\Java\DemoLib\docs\DemoLib-Create-Project.jpg)
+![](docs/DemoLib-Create-Project.jpg)
  
    - Название **DemoLib**:
        - Вообще-то если планируется создавать несколько классов,
@@ -14,7 +14,7 @@
          Поэтому назвал в единственном числе, ибо, КМК, Libs - это уже как "ножницыы" :)
 
 ## Создать пакет *org.dalp.demolib*
-![](C:\Projects\Java\DemoLib\docs\DemoLib-Create-Package.jpg)
+![](docs/DemoLib-Create-Package.jpg)
 
 ## Создать пару демо-классов
 ***src/org/dalp/demolib/LibOne.java***
@@ -53,13 +53,13 @@ public class LibTwo {
  
 ## Конфигурация артефактов (aka бинарников) модуля .jar
 
-![](C:\Projects\Java\DemoLib\docs\DemoLib-Configure-Artifacts.jpg)
-![](C:\Projects\Java\DemoLib\docs\DemoLib-Configure-Artifacts-Add.jpg)
+![](docs/DemoLib-Configure-Artifacts.jpg)
+![](docs/DemoLib-Configure-Artifacts-Add.jpg)
 
 **FYI: *Main Class указывать не надо***
 
 ## Скомпилить артефакты.
-![](C:\Projects\Java\DemoLib\docs\DemoLib-Configure-Artifacts-Build.jpg)
+![](docs/DemoLib-Configure-Artifacts-Build.jpg)
 
 *Теперь в папке с артефактами лежит jar*:
   ***out/artifacts/DemoLib_jar/DemoLib.jar***
@@ -69,7 +69,7 @@ public class LibTwo {
 ### Создать проект DemoUseDemoLib
 
 ### Добавить во внешние библиотеки 
-![](C:\YandexDisk\Projects\Java\DemoLib\docs\DemoUseDemoLib-add-lib.jpg)
+![](docs/DemoUseDemoLib-add-lib.jpg)
 
 File - Project structure - Project settings - Libraries - "+" - указать соотв. jar
 
@@ -89,6 +89,6 @@ public class Main {
 ```
 #### Должно выглядеть где-то так
 
-![](C:\YandexDisk\Projects\Java\DemoLib\docs\DemoUseDemoLib-pvsm.jpg)
+![](docs/DemoUseDemoLib-pvsm.jpg)
 
 Запускаем, все должно работать.
